@@ -1,0 +1,8 @@
+module.exports = [{
+    to:"0x6Aff5C1e2b42C621E73B9b62965C45268F72Da51",
+    amount:"1000000000000000000"
+},
+{
+    to:"0x0B571De503aF201E0fe6787f1DB2f26867D1c1cf",
+    amount:"1000000000000000000"
+}];
