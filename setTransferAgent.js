@@ -14,11 +14,11 @@ const web3 = new Web3(httpProvider);
 
 
 (async () => {
-    const contractAddress = "0x8847A0A56aB03B9E9B00FD8BBcFa65697f4D961B";
+    const contractAddress = "0xe6Ca4d3890F2262e4c5dCae3f7400B76131F1757";
     const contract = new web3.eth.Contract(abi, contractAddress);
 
-    const sender = "0x489b5af551dde981bf08729eac0d76d9049f7c13";
-    let transferAgent = "0x489b5af551dde981bf08729eac0d76d9049f7c13"
+    const sender = "0x2edcc2219cc46aaeab835f024e309ff9e9186a30";
+    let transferAgent = "0x2edcc2219cc46aaeab835f024e309ff9e9186a30"
     const setTransferAgentTxData = await contract.methods
     .setTransferAgent(transferAgent, true)
     .send({
